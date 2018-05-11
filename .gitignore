@@ -1,4 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
+.gitignore
 .idea/
 config.xml
 ionic.config.json
@@ -213,8 +214,8 @@ node_modules/hoek/
 node_modules/hosted-git-info/
 node_modules/http-errors/
 node_modules/http-parser-js/
-node_modules/
-http-signature/
+Wo
+uld remove node_modules/http-signature/
 node_modules/https-browserify/
 node_modules/iconv-lite/
 node_modules/ieee754/
@@ -423,8 +424,8 @@ node_modules/resolve/
 node_modules/ret/
 node_modules/right-align/
 node_modules/rimraf/
-node_modules/r
-ipemd160/
+Wou
+ld remove node_modules/ripemd160/
 node_modules/rollup-plugin-commonjs/
 node_modules/rollup-plugin-node-resolve/
 node_modules/rollup-pluginutils/
@@ -607,11 +608,18 @@ src/app/
 src/assets/
 src/index.html
 src/manifest.json
-src/pages/home/home.scss
-src/pages
-/home/home.ts
+src/pages/home/home.scs
+s
+src/pages/home/home.ts
 src/service-worker.js
 src/theme/
 tsconfig.json
 tslint.json
 www/
+node_modules/
+http-signature/
+node_modules/r
+ipemd160/
+src/pages/home/home.scss
+src/pages
+/home/home.ts
